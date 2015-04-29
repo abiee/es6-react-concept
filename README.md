@@ -1,6 +1,10 @@
-ES6 React project
+React and Flux proof of concept
 ======================
-Blank porject made with React and ES6, you can use it to bootstrap your projects. Please note that this project does not include flux architecture or any libs about it, this is good because you can install your favorite libs.
+This project is just a proof of concept about building web application using React with flux architecture. You can run the project in develop mode and compile to go to production.
+
+The code is based on [Creating A Simple Shopping Cart with React.js and Flux](https://scotch.io/tutorials/creating-a-simple-shopping-cart-with-react-js-and-flux) tutorial.
+
+This project is based on [es6-reatt](https://github.com/abiee/es6-react), you can use it for you base project.
 
 What's inside
 ----------------
@@ -8,7 +12,6 @@ Batteries included:
  - Gulp
  - jspm
  - Babel
- - Bootstrap
  - React
  - Livereload
  - Karma
@@ -18,8 +21,8 @@ Setup
 -----
 Clone the repository and install the dependencies.
 
-    $ git clone https://github.com/abiee/es6-rect.git my-project
-    $ cd my-project
+    $ git clone https://github.com/abiee/es6-react-concept.git
+    $ cd es6-react-concept
     $ npm install
     $ jspm install
     $ gulp serve
