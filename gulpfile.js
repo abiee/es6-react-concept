@@ -106,7 +106,7 @@ gulp.task('transpile:app', function() {
 // Bundle javascripts
 gulp.task('bundle:app', function() {
   return gulp.src('')
-    .pipe($.shell('jspm bundle-sfx .tmp/scripts/app dist/scripts/app.js --skip-source-maps'));
+    .pipe($.shell('jspm bundle-sfx .tmp/scripts/app dist/scripts/app.js --minify --skip-source-maps'));
 });
 
 // Run karma for development, will watch and reload
